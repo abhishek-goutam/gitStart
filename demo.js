@@ -18,16 +18,22 @@ var headerTitle = document.getElementById('header-title');
 // headerTitle.style.borderBottom = 'solid 3px #000'
 // var itemHeader = document.getElementsByTagName('h2');
 
-var items = document.getElementsByClassName('list-group-item');
+var items = document.querySelector('.list-group');
+items.style.fontWeight ='bold';
+
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.backgroundColor ="green"
 
 var header = document.querySelector('.title');
 header.style.borderBottom = 'solid 4 px black';
 header.style.color = 'green';
 header.style.fontWeight ='bold';
 
-var odd = document.querySelectorAll('li:nth-child(odd)');
-for(let i =0;i < odd.length;i++){
-    odd[i].style.backgroundColor = "red";
-}
+
+
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+// for(let i =0;i < odd.length;i++){
+//     odd[i].style.backgroundColor = "red";
+// }
 
 
