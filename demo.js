@@ -22,6 +22,8 @@ var items = document.querySelector('.list-group');
 items.style.fontWeight ='bold';
 
 var thirdItem = document.querySelector('.list-group-item:nth-child(2)');
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.display ='none'
 thirdItem.style.backgroundColor ="green"
 
 var header = document.querySelector('.title');
