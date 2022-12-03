@@ -29,6 +29,11 @@ header.style.borderBottom = 'solid 4 px black';
 header.style.color = 'green';
 header.style.fontWeight ='bold';
 
+var li = document.getElementsByClassName('list-group-item');
+for(let i =0;i<li.length;i++){
+    li[i].style.color = 'red';
+}
+
 
 
 // var odd = document.querySelectorAll('li:nth-child(odd)');
