@@ -25,4 +25,9 @@ header.style.borderBottom = 'solid 4 px black';
 header.style.color = 'green';
 header.style.fontWeight ='bold';
 
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(let i =0;i < odd.length;i++){
+    odd[i].style.backgroundColor = "red";
+}
+
 
