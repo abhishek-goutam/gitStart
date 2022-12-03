@@ -22,25 +22,27 @@ var items = document.querySelector('.list-group');
 items.style.fontWeight ='bold';
 
 var thirdItem = document.querySelector('.list-group-item:nth-child(2)');
-var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
-thirdItem.style.display ='none'
-thirdItem.style.backgroundColor ="green"
+var seconddItem = document.querySelector('.list-group-item:nth-child(2)');
+seconddItem.style.color ="green"
+// var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+// thirdItem.style.display ='none'
+// thirdItem.style.backgroundColor ="green"
 
 var header = document.querySelector('.title');
 header.style.borderBottom = 'solid 4 px black';
 header.style.color = 'green';
 header.style.fontWeight ='bold';
 
-var li = document.getElementsByClassName('list-group-item');
-for(let i =0;i<li.length;i++){
-    li[i].style.color = 'red';
-}
-
-
-
-// var odd = document.querySelectorAll('li:nth-child(odd)');
-// for(let i =0;i < odd.length;i++){
-//     odd[i].style.backgroundColor = "red";
+// var li = document.getElementsByClassName('list-group-item');
+// for(let i =0;i<li.length;i++){
+//     li[i].style.backgroundColor = 'green';
 // }
+
+
+
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(let i =0;i < odd.length;i++){
+    odd[i].style.backgroundColor = "green";
+}
 
 
