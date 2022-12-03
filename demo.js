@@ -21,7 +21,7 @@ var headerTitle = document.getElementById('header-title');
 var items = document.querySelector('.list-group');
 items.style.fontWeight ='bold';
 
-var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+var thirdItem = document.querySelector('.list-group-item:nth-child(2)');
 thirdItem.style.backgroundColor ="green"
 
 var header = document.querySelector('.title');
