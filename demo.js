@@ -48,7 +48,7 @@ console.log(listItems.parentNode);
 listItems.parentNode.style.backgroundColor ='#f4f4f4';
 console.log(listItems.parentNode.parentNode.parentNode);
 
-// parentElement
+// parentElement.
 
 console.log(listItems.parentElement);
 listItems.parentElement.style.backgroundColor ='#f4f4f4';
